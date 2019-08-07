@@ -201,7 +201,7 @@ if(isset($_POST)){
                                         <?php foreach($contacts as $value){ ?>
                                             <tr>
                                                 <th>
-                                                    <?php echo $value["idUsuario"]; ?>
+                                                    <?php echo $value["idContacto"]; ?>
                                                 </th>
                                                 <td>
                                                     <?php echo $value["nombres"] . " " . $value["apellidos"]; ?>

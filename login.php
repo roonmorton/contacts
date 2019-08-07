@@ -2,9 +2,9 @@
 session_start();
 if(isset($_SESSION['user'])){
     header('Location: '.'/contacts/contacts/index.php');
-}else{
+}/*else{
     echo "no hay usuario";
-}
+}*/
 ?>
 <!DOCTYPE html>
 <html>
@@ -20,6 +20,9 @@ if(isset($_SESSION['user'])){
         <nav class="level">
         </nav>
     </section>
+    <br>
+    <br>
+
     <section class="section ">
         <div class="container">
             <div class="columns is-mobile">
